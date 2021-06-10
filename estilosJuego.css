@@ -77,3 +77,22 @@
         display: none;   /*   esta clase le agrga un display none al elemento de que la llame */
 
       }
+
+      .Container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+      }
+      .ContainerTitulo{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+      }
+
+    @media screen and (min-width:768px) and (max-width:900px){
+      .ContainerTitulo{
+        font-size: 50px;
+      }
+    }
